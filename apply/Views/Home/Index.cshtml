@@ -1,0 +1,31 @@
+@{
+    ViewData["Title"] = "Thông tin phiếu nhập xuất kho";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+<h1>Thông tin phiếu nhập xuất kho</h1>
+<form>
+  <label for="so-phieu">Số phiếu:</label>
+  <input type="text" id="so-phieu" name="so-phieu"><br>
+
+  <label for="ngay-lap-phieu">Ngày lập phiếu:</label>
+  <input type="date" id="ngay-lap-phieu" name="ngay-lap-phieu"><br>
+
+  <label for="ma-vat-tu">Mã vật tư:</label>
+  <input type="text" id="ma-vat-tu" name="ma-vat-tu"><br>
+
+  <label for="ten-vat-tu">Tên vật tư:</label>
+  <input type="text" id="ten-vat-tu" name="ten-vat-tu"><br>
+
+  <label for="dvt">ĐVT:</label>
+  <input type="text" id="dvt" name="dvt"><br>
+
+  <label for="so-luong-nhap">Số lượng nhập:</label>
+  <input type="number" id="so-luong-nhap" name="so-luong-nhap"><br>
+
+  <label for="so-luong-xuat">Số lượng xuất:</label>
+  <input type="number" id="so-luong-xuat" name="so-luong-xuat"><br>
+
+  <button type="submit" id="them-dulieu">Thêm dữ liệu</button>
+  <button type="button" id="xoa-dulieu">Xóa dữ liệu</button>
+</form>
